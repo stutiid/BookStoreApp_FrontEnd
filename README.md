@@ -1,3 +1,9 @@
+# FlyneticsStutiPathak_FrontEnd
+
+1. Installation instructions:- npm install
+2. Build project/git clone and then run npm test
+
+##################################################################################################################################################################
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
