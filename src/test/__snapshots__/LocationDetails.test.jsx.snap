@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests should render initial layout 1`] = `
+Array [
+  <div
+    className="location-main"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <ForwardRef(Card)
+        className="location-card"
+        style={
+          Object {
+            "backgroundColor": "lightyellow",
+          }
+        }
+      >
+        <ForwardRef(CardContent)>
+          <b>
+            <u>
+              Description:-
+            </u>
+          </b>
+           
+          <br />
+          <b>
+            <u>
+              State:-
+            </u>
+          </b>
+           
+          <br />
+          <b>
+            <u>
+              Population:-
+            </u>
+          </b>
+           
+        </ForwardRef(CardContent)>
+      </ForwardRef(Card)>
+    </div>
+  </div>,
+]
+`;

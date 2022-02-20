@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests should render initial layout 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "height": "1100px",
+        "width": "100%",
+      }
+    }
+  >
+    <t
+      className="display-map"
+      debounced={true}
+      defaultCenter={
+        Object {
+          "lat": 20.5937,
+          "lng": 78.9629,
+        }
+      }
+      defaultZoom={6}
+      distanceToMouse={[Function]}
+      googleMapLoader={[Function]}
+      heatmap={Object {}}
+      heatmapLibrary={false}
+      hoverDistance={30}
+      layerTypes={Array []}
+      options={[Function]}
+      shouldUnregisterMapOnUnmount={true}
+      style={
+        Object {
+          "height": "100%",
+          "margin": 0,
+          "padding": 0,
+          "position": "relative",
+          "width": "100%",
+        }
+      }
+      yesIWantToUseGoogleMapApiInternals={false}
+    >
+      <LocationDetails
+        description="Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state."
+        icon={
+          <Memo
+            style={
+              Object {
+                "color": "red",
+                "fontSize": "large",
+              }
+            }
+          />
+        }
+        lat="12.9699"
+        lng="77.5980"
+        population={13707000}
+        state="Karnataka"
+        text="Banglore"
+      />
+    </t>
+  </div>,
+]
+`;

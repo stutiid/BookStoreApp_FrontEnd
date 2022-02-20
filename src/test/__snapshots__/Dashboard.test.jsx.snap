@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests should render initial layout 1`] = `
+Array [
+  <div
+    className="dashboard-main-div"
+  >
+    <ForwardRef(AppBar)
+      className="dashboard-app-bar"
+      position="static"
+      style={
+        Object {
+          "background": "#00131c",
+        }
+      }
+    >
+      <ForwardRef(Toolbar)>
+        <Memo />
+        <span>
+          <h3>
+            Map Location
+          </h3>
+        </span>
+        <div
+          className="dashboard-search-div"
+        >
+          <div
+            className="dashboard-input"
+          >
+            <ForwardRef(TextField)
+              className="dashboard-search-text"
+              inputRef={[Function]}
+              label="Search"
+              name="searchName"
+              onChange={[Function]}
+              required={true}
+              value=""
+              variant="standard"
+            />
+            <Options
+              handleClick={[Function]}
+              suggestions={Array []}
+            />
+          </div>
+          <div
+            className="dashboard-search-button"
+          >
+            <ForwardRef(Button)
+              onClick={[Function]}
+            >
+              <Memo />
+            </ForwardRef(Button)>
+          </div>
+        </div>
+      </ForwardRef(Toolbar)>
+    </ForwardRef(AppBar)>
+    <div
+      className="dashboard-location-div"
+    />
+  </div>,
+]
+`;
